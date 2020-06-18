@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New CoeffConfiance{% endblock %}
+
+{% block body %}
+    <h1>Create new CoeffConfiance</h1>
+
+    {{ include('coeff_confiance/_form.html.twig') }}
+
+    <a href="{{ path('coeff_confiance_index') }}">back to list</a>
+{% endblock %}

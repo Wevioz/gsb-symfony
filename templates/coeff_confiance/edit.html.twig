@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit CoeffConfiance{% endblock %}
+
+{% block body %}
+    <h1>Edit CoeffConfiance</h1>
+
+    {{ include('coeff_confiance/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('coeff_confiance_index') }}">back to list</a>
+
+    {{ include('coeff_confiance/_delete_form.html.twig') }}
+{% endblock %}

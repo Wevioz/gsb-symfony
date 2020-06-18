@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Authentification{% endblock %}
+
+{% form_theme authForm 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <center><h1>Accès restreint</h1></center>
+        {{form(authForm)}}
+    </div>
+{% endblock %}
